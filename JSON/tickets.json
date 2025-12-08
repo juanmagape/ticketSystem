@@ -1,0 +1,82 @@
+[
+  {
+    "id": "20251207_001",
+    "asunto": "Error de conexión al WiFi",
+    "descripcion": "El usuario no podía conectarse a la red WiFi corporativa. Se reinició el adaptador de red y se renovó la IP. Se solucionó con una reconfiguración del perfil de red.",
+    "agente": "Juan Martínez",
+    "fecha_apertura": "2025-12-07",
+    "estado": "Completado"
+  },
+  {
+    "id": "20251207_002",
+    "asunto": "Pantalla parpadea en portátil HP",
+    "descripcion": "La pantalla parpadeaba al mover la tapa. Se revisó el flex del panel y se ajustó la conexión interna. El problema quedó resuelto.",
+    "agente": "Laura Gómez",
+    "fecha_apertura": "2025-12-07",
+    "estado": "Completado"
+  },
+  {
+    "id": "20251207_003",
+    "asunto": "No se abre Outlook",
+    "descripcion": "Outlook quedaba congelado al iniciar. Se eliminó el perfil y se creó uno nuevo vinculando el correo Exchange. Funciona correctamente.",
+    "agente": "Pedro Sánchez",
+    "fecha_apertura": "2025-12-07",
+    "estado": "En progreso"
+  },
+  {
+    "id": "20251207_004",
+    "asunto": "Error de inicio de sesión en Windows",
+    "descripcion": "El usuario recibía error al cargar el perfil. Se creó un nuevo perfil local y se migraron los datos principales. Pendiente revisión del dominio.",
+    "agente": "Sofía López",
+    "fecha_apertura": "2025-12-07",
+    "estado": "Pendiente"
+  },
+  {
+    "id": "20251207_005",
+    "asunto": "Impresora no imprime",
+    "descripcion": "La impresora aparecía como fuera de línea. Se reinstaló el controlador desde el servidor de impresión y se restableció la cola. Impresiones funcionando.",
+    "agente": "Carlos Ruiz",
+    "fecha_apertura": "2025-12-07",
+    "estado": "Completado"
+  },
+  {
+    "id": "20251207_006",
+    "asunto": "Lentitud general en equipo",
+    "descripcion": "El equipo tenía un uso de CPU del 100% por procesos en segundo plano. Se desinstalaron apps innecesarias y se optimizó el arranque. Aún en observación.",
+    "agente": "Marta Díaz",
+    "fecha_apertura": "2025-12-07",
+    "estado": "En progreso"
+  },
+  {
+    "id": "20251207_007",
+    "asunto": "Correo no sincroniza en móvil",
+    "descripcion": "La cuenta Exchange no sincronizaba por credenciales antiguas. Se eliminó y se agregó de nuevo la cuenta. Sincroniza correctamente.",
+    "agente": "David Romero",
+    "fecha_apertura": "2025-12-07",
+    "estado": "Completado"
+  },
+  {
+    "id": "20251207_008",
+    "asunto": "No funciona Microsoft Teams",
+    "descripcion": "Teams no iniciaba sesión. Se limpiaron las cachés, se reinstaló la aplicación y se verificó MFA. Usuario puede acceder ahora.",
+    "agente": "Ana Torres",
+    "fecha_apertura": "2025-12-07",
+    "estado": "Completado"
+  },
+  {
+    "id": "20251207_009",
+    "asunto": "Problemas con la VPN",
+    "descripcion": "La VPN desconectaba cada pocos minutos. Se actualizó el cliente y se modificó la configuración del túnel dividido. Aún pendiente de evaluar.",
+    "agente": "Rubén Castillo",
+    "fecha_apertura": "2025-12-07",
+    "estado": "En progreso"
+  },
+  {
+    "id": "20251207_010",
+    "asunto": "No se puede abrir un archivo PDF",
+    "descripcion": "Adobe Reader mostraba error al abrir archivos. Se reparó la instalación y se restablecieron las preferencias. Solucionado.",
+    "agente": "Elena Navarro",
+    "fecha_apertura": "2025-12-07",
+    "estado": "Completado"
+  }
+]
