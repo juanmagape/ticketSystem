@@ -1,0 +1,153 @@
+[
+  {
+    "nombre": "No hay conexión a Internet",
+    "descripcion_breve": "Guía para resolver problemas comunes cuando un usuario no puede navegar o pierde conectividad.",
+    "procedimiento": [
+      "1. Confirmar si el usuario tiene Wi-Fi o Ethernet habilitado.",
+      "2. Verificar si otros dispositivos conectan a la misma red.",
+      "3. Comprobar cables o señal Wi-Fi.",
+      "4. Reiniciar el router o pedir que lo reinicien.",
+      "5. Ejecutar 'ipconfig /release' y 'ipconfig /renew'.",
+      "6. Revisar si está usando DHCP correctamente.",
+      "7. Reiniciar el adaptador de red.",
+      "8. Comprobar firewall o políticas del antivirus.",
+      "9. Hacer ping a 8.8.8.8 y al gateway.",
+      "10. Verificar DNS y contactar al ISP si sigue fallando."
+    ],
+    "referencia": "https://learn.microsoft.com/en-us/troubleshoot/windows-client/networking/troubleshoot-network-connection"
+  },
+  {
+    "nombre": "Outlook no funciona o no sincroniza",
+    "descripcion_breve": "Solución para problemas típicos de sincronización, apertura o rendimiento en Microsoft Outlook.",
+    "procedimiento": [
+      "1. Verificar conexión a Internet.",
+      "2. Comprobar si Outlook Web funciona.",
+      "3. Revisar credenciales.",
+      "4. Abrir en modo seguro con 'outlook.exe /safe'.",
+      "5. Deshabilitar complementos.",
+      "6. Reparar el perfil.",
+      "7. Eliminar y crear un nuevo perfil si es necesario.",
+      "8. Usar Microsoft Support and Recovery Assistant."
+    ],
+    "referencia": "https://learn.microsoft.com/en-us/outlook/troubleshoot/"
+  },
+  {
+    "nombre": "Impresora no imprime",
+    "descripcion_breve": "Pasos esenciales para resolver errores de impresión tanto en red como locales.",
+    "procedimiento": [
+      "1. Comprobar si la impresora está encendida.",
+      "2. Verificar si aparece online.",
+      "3. Reiniciar el servicio 'Print Spooler'.",
+      "4. Revisar cables o conectividad a la IP.",
+      "5. Hacer ping a la impresora.",
+      "6. Reinstalar drivers oficiales.",
+      "7. Vaciar la cola de impresión.",
+      "8. Probar desde otro equipo.",
+      "9. Revisar permisos del usuario."
+    ],
+    "referencia": "https://support.microsoft.com/en-us/windows/troubleshoot-printer-issues"
+  },
+  {
+    "nombre": "El PC va lento",
+    "descripcion_breve": "Procedimiento para detectar causas de lentitud en Windows y mejorar el rendimiento del equipo.",
+    "procedimiento": [
+      "1. Revisar el Administrador de tareas (CPU, RAM, disco).",
+      "2. Cerrar procesos innecesarios.",
+      "3. Revisar actualizaciones pendientes.",
+      "4. Comprobar antivirus.",
+      "5. Liberar espacio en disco.",
+      "6. Deshabilitar programas de inicio.",
+      "7. Ejecutar 'sfc /scannow'.",
+      "8. Ejecutar 'chkdsk'.",
+      "9. Reiniciar el equipo."
+    ],
+    "referencia": "https://learn.microsoft.com/en-us/windows/client-management/troubleshoot-performance-issues"
+  },
+  {
+    "nombre": "Usuario no puede iniciar sesión",
+    "descripcion_breve": "Guía para resolver bloqueos, expiraciones o problemas de autenticación en Active Directory.",
+    "procedimiento": [
+      "1. Verificar contraseña.",
+      "2. Revisar si la cuenta está bloqueada en AD.",
+      "3. Comprobar si la contraseña expiró.",
+      "4. Intentar iniciar sesión desde otra PC.",
+      "5. Verificar conectividad con el dominio.",
+      "6. Reiniciar el equipo.",
+      "7. Comprobar si el perfil está corrupto.",
+      "8. Validar estado del controlador de dominio."
+    ],
+    "referencia": "https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/user-accounts/unlock-user-accounts"
+  },
+
+  {
+    "nombre": "No funciona el audio en Windows",
+    "descripcion_breve": "Pasos para diagnosticar fallos de sonido, dispositivos no detectados o controladores corruptos.",
+    "procedimiento": [
+      "1. Comprobar que el dispositivo de salida correcto esté seleccionado.",
+      "2. Revisar que los altavoces o auriculares estén conectados.",
+      "3. Ejecutar el solucionador de problemas de audio.",
+      "4. Reiniciar el servicio 'Audio de Windows'.",
+      "5. Reinstalar o actualizar controladores de audio.",
+      "6. Verificar que no esté muteado en el mezclador de sonido.",
+      "7. Probar con otro dispositivo para descartar hardware."
+    ],
+    "referencia": "https://support.microsoft.com/en-us/windows/fix-sound-problems"
+  },
+  {
+    "nombre": "VPN no conecta",
+    "descripcion_breve": "Procedimiento para solucionar fallos de conexión en VPN corporativa, credenciales o puertos bloqueados.",
+    "procedimiento": [
+      "1. Verificar conexión a Internet estable.",
+      "2. Revisar credenciales de VPN.",
+      "3. Comprobar si la IP pública está bloqueada por políticas.",
+      "4. Reiniciar el cliente VPN.",
+      "5. Deshabilitar temporalmente antivirus o firewall para pruebas.",
+      "6. Comprobar si los puertos necesarios están abiertos.",
+      "7. Verificar expiración del certificado VPN si aplica.",
+      "8. Revisar logs del cliente para errores específicos."
+    ],
+    "referencia": "https://learn.microsoft.com/en-us/vpn/"
+  },
+  {
+    "nombre": "Pantalla azul (BSOD)",
+    "descripcion_breve": "Guía rápida para identificar la causa del error y reparar archivos del sistema o drivers defectuosos.",
+    "procedimiento": [
+      "1. Anotar el código de error del pantallazo azul.",
+      "2. Revisar actualizaciones recientes o drivers nuevos.",
+      "3. Ejecutar 'sfc /scannow'.",
+      "4. Ejecutar 'DISM /Online /Cleanup-Image /RestoreHealth'.",
+      "5. Actualizar drivers críticos (GPU, chipset, red).",
+      "6. Revisar fallos de RAM con Windows Memory Diagnostic.",
+      "7. Revisar hardware recién instalado."
+    ],
+    "referencia": "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/"
+  },
+  {
+    "nombre": "Aplicación no abre o se cierra sola",
+    "descripcion_breve": "Pasos para diagnosticar fallos de ejecución, dependencias o configuraciones corruptas en aplicaciones.",
+    "procedimiento": [
+      "1. Reiniciar el equipo.",
+      "2. Ejecutar la aplicación como administrador.",
+      "3. Ver logs en el Visor de eventos.",
+      "4. Reinstalar la aplicación o reparar desde el instalador.",
+      "5. Comprobar dependencias (Java, .NET, runtimes).",
+      "6. Verificar permisos del usuario.",
+      "7. Borrar configuraciones dañadas de la app (carpetas AppData)."
+    ],
+    "referencia": "https://learn.microsoft.com/en-us/windows/win32/debug/application-troubleshooting"
+  },
+  {
+    "nombre": "Teams no inicia o no se conecta",
+    "descripcion_breve": "Solución para problemas típicos de conexión, caché, autenticación o instalación en Microsoft Teams.",
+    "procedimiento": [
+      "1. Comprobar conexión a Internet.",
+      "2. Cerrar Teams desde el Administrador de tareas.",
+      "3. Borrar la caché de Teams (AppData/Roaming/Microsoft/Teams).",
+      "4. Iniciar sesión en Office.com para validar credenciales.",
+      "5. Reinstalar Teams.",
+      "6. Comprobar si hay problemas globales en Microsoft 365.",
+      "7. Revisar si el firewall bloquea puertos de Teams."
+    ],
+    "referencia": "https://learn.microsoft.com/en-us/microsoftteams/troubleshoot/"
+  }
+]

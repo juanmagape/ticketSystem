@@ -96,3 +96,46 @@ table {
 .dont-show {
   display: none;
 }
+
+#contentKnow {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contentKnow > div {
+    max-width: 400px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #004aad;
+    border-radius: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.botonKnow {
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    border: transparent;
+    margin-top: 20px;
+    background-color: #004aad;
+    color: white;
+}
+
+.botonKnow:hover {
+    background-color: #0066cc;
+    cursor: pointer;
+}
+
+.knowContent {
+    background-color: white;
+    padding: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+    
+    max-height: 800px;
+    max-width: 1800px;
+}
