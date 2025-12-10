@@ -42,10 +42,15 @@ function mostrarTickets(tickets) {
             canvas.style.display = 'none';
             
             content.innerHTML = 
-            `<p>${ticketID}</p>
+            `
+            <div class="knowContent">
+            <p class="ticketID">${ticketID}</p>
             <h3>${ticket.asunto}</h3>
             <p>${ticket.descripcion}</p>
-            <a href="../index.html">Volver</a>`;
+            <a href="javascript:history.back()">
+            <button class="botonKnow">Volver</button>
+            </a>
+            </div>`;
     }
     )}
 }

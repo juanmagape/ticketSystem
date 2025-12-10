@@ -109,7 +109,7 @@ table {
     padding: 20px;
     border: 2px solid #004aad;
     border-radius: 20px;
-    
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between; 
@@ -131,11 +131,25 @@ table {
 
 .knowContent {
     background-color: white;
-    padding: 200px;
+    padding: 100px;
     margin-left: 100px;
     margin-right: 100px;
     border-radius: 20px;
     
     max-height: 800px;
     max-width: 1800px;
+}
+
+.knowContent > p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.knowContent > h2 {
+    margin-bottom: 20px;
+}
+
+.ticketID {
+    color: #004aad;
+    text-decoration: underline;
 }
