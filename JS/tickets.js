@@ -41,16 +41,54 @@ function mostrarTickets(tickets) {
 
             canvas.style.display = 'none';
             
-            content.innerHTML = 
-            `
-            <div class="knowContent">
-            <p class="ticketID">${ticketID}</p>
-            <h3>${ticket.asunto}</h3>
-            <p>${ticket.descripcion}</p>
-            <a href="javascript:history.back()">
-            <button class="botonKnow">Volver</button>
-            </a>
-            </div>`;
+function getEstadoClass(estado) {
+    if (estado === "Completado") return "estado-completado";
+    if (estado === "Pendiente") return "estado-pendiente";
+    if (estado === "En progreso") return "estado-enprogreso";
+    return "";
+}
+
+content.innerHTML = `
+<div class="ticketCont">
+    <div class="knowContent">
+        <h3>${ticket.asunto}</h3>
+        
+        <h4>Descripción del problema</h4>
+        <p>${ticket.descripcion}</p>
+        
+        <h4>Solución</h4>
+        <p>${ticket.solucion}</p>
+        
+        <button class="botonKnow" onclick="history.back()">Volver</button>
+    </div>
+    
+    <div class="aside">
+        <div>
+            <label>Número de caso</label>
+            <div class="value ticketID">${ticketID}</div>
+        </div>
+        
+        <div>
+            <label>Estado</label>
+            <div class="value">
+                <span class="estadoBadge ${getEstadoClass(ticket.estado)}">
+                    ${ticket.estado}
+                </span>
+            </div>
+        </div>
+        
+        <div>
+            <label>Agente asignado</label>
+            <div class="value">${ticket.agente}</div>
+        </div>
+        
+        <div>
+            <label>Fecha de apertura</label>
+            <div class="value">${ticket.fecha_apertura}</div>
+        </div>
+    </div>
+</div>
+`;
     }
     )}
 }

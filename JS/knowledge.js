@@ -66,15 +66,21 @@ function mostrarDetalleKnowledge(linkName) {
                 .join('');
 
                 knowInside.innerHTML = `
-                <div class="knowContent">
-                    <h2>${knowN.nombre}</h2>
-                    <h3>${knowN.descripcion_breve}</h3>
-                    <p class="procedimiento">${pasos}</p>
-                    <a href="?link=Knowledge">
-                        <button class="botonKnow">Volver</button>
-                    </a>
+                <div class="knowDetailCont">
+                    <div class="knowDetailContent">
+                        <h1>${knowN.nombre}</h1>
+                        <p class="knowDescription">${knowN.descripcion_breve}</p>
+                        
+                        <div class="procedimientoSection">
+                            <h3>Procedimiento</h3>
+                            <ol class="procedimientoList">
+                                ${pasos}
+                            </ol>
+                        </div>
+                        
+                        <button class="botonKnow" onclick="history.back()">Volver</button>
+                    </div>
                 </div>
-     
                 `;
             }
         })

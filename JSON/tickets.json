@@ -3,80 +3,90 @@
     "id": "20251207_001",
     "asunto": "Error de conexión al WiFi",
     "descripcion": "El usuario no podía conectarse a la red WiFi corporativa. Se reinició el adaptador de red y se renovó la IP. Se solucionó con una reconfiguración del perfil de red.",
-    "agente": "Juan Martínez",
+    "agente": "Lian Ferrow",
     "fecha_apertura": "2025-12-07",
-    "estado": "Completado"
+    "estado": "Completado",
+    "solucion": "Se renovó la IP y se regeneró el perfil de red, restableciendo la conectividad."
   },
   {
     "id": "20251207_002",
     "asunto": "Pantalla parpadea en portátil HP",
     "descripcion": "La pantalla parpadeaba al mover la tapa. Se revisó el flex del panel y se ajustó la conexión interna. El problema quedó resuelto.",
-    "agente": "Laura Gómez",
+    "agente": "Mira Talvorn",
     "fecha_apertura": "2025-12-07",
-    "estado": "Completado"
+    "estado": "Completado",
+    "solucion": "Se ajustó el flex del panel y se estabilizó el contacto interno."
   },
   {
     "id": "20251207_003",
     "asunto": "No se abre Outlook",
     "descripcion": "Outlook quedaba congelado al iniciar. Se eliminó el perfil y se creó uno nuevo vinculando el correo Exchange. Funciona correctamente.",
-    "agente": "Pedro Sánchez",
+    "agente": "Rovan Skell",
     "fecha_apertura": "2025-12-07",
-    "estado": "En progreso"
+    "estado": "En progreso",
+    "solucion": "Se reemplazó el perfil de Outlook por uno nuevo y sincronizado."
   },
   {
     "id": "20251207_004",
     "asunto": "Error de inicio de sesión en Windows",
     "descripcion": "El usuario recibía error al cargar el perfil. Se creó un nuevo perfil local y se migraron los datos principales. Pendiente revisión del dominio.",
-    "agente": "Sofía López",
+    "agente": "Talia Wex",
     "fecha_apertura": "2025-12-07",
-    "estado": "Pendiente"
+    "estado": "Pendiente",
+    "solucion": "Se generó un perfil nuevo y se migraron documentos esenciales."
   },
   {
     "id": "20251207_005",
     "asunto": "Impresora no imprime",
     "descripcion": "La impresora aparecía como fuera de línea. Se reinstaló el controlador desde el servidor de impresión y se restableció la cola. Impresiones funcionando.",
-    "agente": "Carlos Ruiz",
+    "agente": "Joren Valic",
     "fecha_apertura": "2025-12-07",
-    "estado": "Completado"
+    "estado": "Completado",
+    "solucion": "Controlador reinstalado y cola reiniciada; la impresora quedó operativa."
   },
   {
     "id": "20251207_006",
     "asunto": "Lentitud general en equipo",
     "descripcion": "El equipo tenía un uso de CPU del 100% por procesos en segundo plano. Se desinstalaron apps innecesarias y se optimizó el arranque. Aún en observación.",
-    "agente": "Marta Díaz",
+    "agente": "Nira Kess",
     "fecha_apertura": "2025-12-07",
-    "estado": "En progreso"
+    "estado": "En progreso",
+    "solucion": "Se eliminaron procesos residuales y se ajustó el arranque para mejor rendimiento."
   },
   {
     "id": "20251207_007",
     "asunto": "Correo no sincroniza en móvil",
     "descripcion": "La cuenta Exchange no sincronizaba por credenciales antiguas. Se eliminó y se agregó de nuevo la cuenta. Sincroniza correctamente.",
-    "agente": "David Romero",
+    "agente": "Darek Solven",
     "fecha_apertura": "2025-12-07",
-    "estado": "Completado"
+    "estado": "Completado",
+    "solucion": "Se reconfiguró la cuenta Exchange y se actualizaron credenciales."
   },
   {
     "id": "20251207_008",
     "asunto": "No funciona Microsoft Teams",
     "descripcion": "Teams no iniciaba sesión. Se limpiaron las cachés, se reinstaló la aplicación y se verificó MFA. Usuario puede acceder ahora.",
-    "agente": "Ana Torres",
+    "agente": "Kira Lons",
     "fecha_apertura": "2025-12-07",
-    "estado": "Completado"
+    "estado": "Completado",
+    "solucion": "Se vaciaron cachés y se reinstaló Teams, restableciendo el inicio de sesión."
   },
   {
     "id": "20251207_009",
     "asunto": "Problemas con la VPN",
     "descripcion": "La VPN desconectaba cada pocos minutos. Se actualizó el cliente y se modificó la configuración del túnel dividido. Aún pendiente de evaluar.",
-    "agente": "Rubén Castillo",
+    "agente": "Fenric Hald",
     "fecha_apertura": "2025-12-07",
-    "estado": "En progreso"
+    "estado": "En progreso",
+    "solucion": "Actualización del cliente VPN y ajuste del split tunneling para mayor estabilidad."
   },
   {
     "id": "20251207_010",
     "asunto": "No se puede abrir un archivo PDF",
     "descripcion": "Adobe Reader mostraba error al abrir archivos. Se reparó la instalación y se restablecieron las preferencias. Solucionado.",
-    "agente": "Elena Navarro",
+    "agente": "Vexa Ardin",
     "fecha_apertura": "2025-12-07",
-    "estado": "Completado"
+    "estado": "Completado",
+    "solucion": "Reparación de Adobe Reader y restablecimiento de configuraciones."
   }
 ]
