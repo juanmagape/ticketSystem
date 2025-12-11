@@ -23,7 +23,10 @@ body {
     margin-bottom: 32px;
 }
 
-
+#navbar a {
+    text-decoration: none;
+    color: #004085;
+}
 
 table {
     width: 100%;
