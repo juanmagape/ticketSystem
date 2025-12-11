@@ -3,7 +3,7 @@ const myChart = document.getElementById("myChart");
 const contentPage = document.getElementById("content");
 const contentKnow = document.getElementById("contentKnow");
 
-let navbarValues = ["Home", "Inbox", "Global", "Knowledge"];
+let navbarValues = ["Home", "Inbox", "Knowledge"];
 
 navbarValues.forEach(element => {
     navBar.innerHTML += `<a href="?link=${element}">${element}</a>`
